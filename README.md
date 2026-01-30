@@ -30,8 +30,8 @@ The model was trained on a subset of the **PlantVillage** dataset, covering 15 c
 - Quantize the model for mobile deployment to assist farmers in low-connectivity areas.
 
 ## 📥 Pre-trained Model
-Download the fine-tuned ResNet18 weights from Hugging Face:
-[🤗 Hugging Face Model Hub]([https://huggingface.co/your-username/plant-disease-classifier](https://huggingface.co/alihaq123/plant_diease_classifier/blob/main/plant_disease_resnet18.pth))
+Download the fine-tuned ResNet18 weights and class mapping from Hugging Face:
+[🤗 Hugging Face Model Hub](https://huggingface.co/alihaq123/plant_diease_classifier/blob/main/plant_disease_resnet18.pth)
 
 To use the model:
 ```python
