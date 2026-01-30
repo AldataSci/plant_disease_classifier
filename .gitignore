@@ -1,0 +1,21 @@
+# Kaggle API credentials
+kaggle.json
+.kaggle/
+
+# Data directories
+data/
+datasets/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights (optional - remove this line if you want to commit .pth files)
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
