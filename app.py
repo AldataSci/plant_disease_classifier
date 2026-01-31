@@ -53,7 +53,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded Image', width=400)
     
     if st.button('Identify Disease'):
-        with st.spinner('Analyzing leaf patterns...'):
+      with st.spinner('Analyzing leaf patterns...'):
             img_tensor = preprocess(image).unsqueeze(0)
             with torch.no_grad():
                 outputs = model(img_tensor)
@@ -69,7 +69,7 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.caption("Developed as a Portfolio Project | Data Science & Deep Learning")
-        with st.spinner('Analyzing leaf pattern...'):
+      with st.spinner('Analyzing leaf pattern...'):
             # Preprocess and Predict
             img_tensor = preprocess(image).unsqueeze(0)
             with torch.no_grad():
