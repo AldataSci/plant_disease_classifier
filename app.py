@@ -47,7 +47,7 @@ preprocess = transforms.Compose([
 
 # 4. Demo Images Section
 st.markdown("### Try These Sample Images")
-st.markdown("Click a button below to test the model instantly:")
+st.markdown("Test the model with the following images:")
 
 demo_images = {
     "Tomato Healthy": "https://raw.githubusercontent.com/AldataSci/plant_disease_classifier/refs/heads/main/samples_images/0031da2a-8edd-468f-a8b1-106657717a32___RS_HL%200105_Tomato_Healthy.JPG",
