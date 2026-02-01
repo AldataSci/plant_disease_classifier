@@ -40,3 +40,8 @@ Download the fine-tuned ResNet18 weights and class mapping from Hugging Face:
 # Load the weights (state_dict)
 model.load_state_dict(torch.load('plant_disease_resnet18.pth', map_location=torch.device('cpu')))
 model.eval()
+
+```
+## ⚠️ Security Note
+
+The kaggle.json API key used for data ingestion is not included in this repository for security reasons. To reproduce the data pipeline, please use your own Kaggle API credentials.
